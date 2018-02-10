@@ -1,0 +1,14 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+repositories {
+  mavenCentral()
+}
+
+sourceCompatibility = targetCompatibility = '1.8'
+
+mainClassName = 'PreviewRender'
+
+dependencies {
+  compile 'se.llbit:chunky-core:1.4.4'
+}
